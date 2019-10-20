@@ -19,12 +19,13 @@ using namespace std;
  	cout<<setbase(16)<<65<<endl;
  	cout<<setbase(10)<<0x41<<endl;
  	
- 	cout<<setw(10)<<setiosflags(ios::left)<<"shehan"<<endl;
+ 	cout<<setw(10)<<setiosflags(ios::right)<<"shehan"<<endl;
  	
  	cout<<setiosflags(ios::oct)<<65<<endl;
  	
  	cout<<setiosflags(ios::showpoint)<<22/7;
  	
  	getch();
+ 	return 0;
  	
  }
