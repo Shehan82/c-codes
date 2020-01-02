@@ -38,7 +38,8 @@ int main()
 {
    shehan c1(2,4);
    shehan c2(4,6);
-   shehan c3;
-   c3= c1+c2;
-   c3.print();
+   shehan c3(2,5);
+   shehan c4;
+   c4= c1+c2+c3;
+   c4.print();
 }
